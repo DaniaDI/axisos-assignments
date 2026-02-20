@@ -1,0 +1,19 @@
+START
+  Input number1
+  Input number2
+  Input number3
+  Set sum to number1 + number2 + number3
+  Set avarage to sum /3
+  OUTPUT avarage
+END
+
+
+OR:-.
+START
+   number1 = 10 
+   number2 = 20 
+   number3 = 30 
+   Set sum to number1 + number2 + number3
+   Set avarage to sum /3
+   OUTPUT avarage
+END

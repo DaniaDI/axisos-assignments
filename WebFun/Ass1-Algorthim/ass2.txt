@@ -1,0 +1,14 @@
+START 
+  INPUT Length
+  INPUT Width 
+  Set Area to Length * Width 
+  OUTPUT  Area
+END
+
+OR:
+START 
+  INPUT Length
+  INPUT Width 
+  Area = Length * Width 
+  PRINT Area
+END
