@@ -21,8 +21,8 @@ button{
 }
 .add-btn{
     background-color: rgb(51, 226, 197);
-    width: 4.5vh;
-    height: 4.5vh;
+    width: 35px;
+    height:35px;
     color: white;
     border: none;
     border-radius: 50%;
