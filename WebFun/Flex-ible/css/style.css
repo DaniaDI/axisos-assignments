@@ -1,0 +1,34 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    margin: 20px;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(43, 188, 236);
+    text-align: center;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    background-color: rgb(43, 188, 236);
+    text-align: center;
+}
+
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    background-color:rgb(43, 188, 236);
+    text-align: center;
+}
