@@ -23,4 +23,4 @@ var y = 10 ;
 console.log( x + y);
 
 var isSanny = true ; // or let same 
-console.log(isSanny);
+console.log("it is sunny today."+" "+isSanny);
