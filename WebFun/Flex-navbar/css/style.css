@@ -16,7 +16,7 @@
     padding:20px 40px;
     background-color: rgb(88, 87, 87);
     align-items: center;
-    font-family: cursive;
+    font-family: Roboto, sans-serif;
 }
 
 .nav-links{
@@ -24,14 +24,17 @@
     list-style: none;
     gap:30px;
     align-items: center;
+     
 }
 .nav-links li a{
     text-decoration: none;
     color: rgb(199, 195, 195); 
+
 }
 .nav-links li a:hover{
     color: white;
 }
+ 
 
 .btn{
     width:100%;
@@ -45,8 +48,8 @@
     
 }
 
-@media screen and (max-width: 768px) {
-    .nav{
+@media (max-width: 768px) {
+    /* .nav{
         flex-direction: column;
         height: auto;
         padding: 10px;
@@ -54,7 +57,7 @@
     .nav-links{
         flex-direction: column;
         gap: 10px;
-    }
+    } */
 /* .nav{
 width:100%;
 gap:50px;
