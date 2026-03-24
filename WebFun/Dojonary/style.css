@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    margin:auto;
+    
+}
+
+header{
+    background-color: rgb(212, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+header input{
+    width:300px;
+    height:30px;
+    padding: 4px;
+    outline: 2px solid;
+}
+header button{
+    width:60px;
+    height:28px;
+    padding: 4px;
+    border:3px solid black;
+    text-align: center;
+    color:aliceblue;
+    background-color: rgb(45, 128, 223);
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+main{
+    display: flex; 
+    justify-content: space-between;
+    padding:10px;
+}
+.left {
+    width: 353px;
+}
+.card{
+    display: flex;
+ /* align-items: center; */
+    gap: 40px;
+    margin-bottom: 22px;
+    height:160px;
+    padding:10px;
+    font-weight: 500;
+    border:2px solid #000;
+
+    
+}
+.card .l-div{
+    font-weight: bold;
+}
+.card .l-div button{
+    background-color: rgb(235, 205, 38);
+    height: 34px;
+    width: 84px;
+    box-shadow: 2px 2px 2px black;
+}
+.r-div{
+    text-align: center;
+    padding-top: 34px;
+}
+.r-div span{
+    color:rgb(0, 89, 255);
+    text-decoration: underline;
+}
+
+.right{
+    width: 176px;
+    height:40px;
+    margin-top: 3px;
+}
+
+
+.l-card{ 
+    height: 125px;
+    padding: 12px;
+    border:2px solid #000;
+
+}
+.l-card span{
+    font-size:20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.l-card button{
+    width: 142px;
+    height: 32px;
+    margin-top:18px;
+    background-color: limegreen;
+    box-shadow: 2px 2px 2px black;
+}
