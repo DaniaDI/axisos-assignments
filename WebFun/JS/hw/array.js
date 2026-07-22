@@ -75,6 +75,18 @@ numberrs.forEach(function(num) {
      console.log(newArray);
      
  /*********************************************************** */
+/*10. Advanced Challenge
+a. Write a program to remove duplicate elements from an array.
+Example:
+
+Input: [1, 2, 2, 3, 4, 4, 5]  
+Output: [1, 2, 3, 4, 5]
+b. Write a program to rotate an array to the right by n positions.
+Example:
+
+Input: [1, 2, 3, 4, 5], n = 2  
+Output: [4, 5, 1, 2, 3]*/
+
 let arr = [1, 2, 2, 3, 4, 4, 5];
 let newArr = [];
 
