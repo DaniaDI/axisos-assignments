@@ -59,6 +59,11 @@ let fruits = ["apple", "banana", "cherry", "date"];
      console.log(items.slice(3));
 
  /*********************************************************** */
+// 9. Filtering Elements
+// a. Given the array let numbers = [1, 5, 10, 15, 20, 25, 30];:
+
+// Create a new array containing only numbers greater than 15.
+// Print the filtered array.
  let numberrs = [1, 5, 10, 15, 20, 25, 30];
  let newArray =[];
 numberrs.forEach(function(num) {  
